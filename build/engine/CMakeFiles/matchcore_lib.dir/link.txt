@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmatchcore_lib.a CMakeFiles/matchcore_lib.dir/src/OrderBook.cpp.o CMakeFiles/matchcore_lib.dir/src/MatchingEngine.cpp.o CMakeFiles/matchcore_lib.dir/src/FeedHandler.cpp.o
+/usr/bin/ranlib libmatchcore_lib.a

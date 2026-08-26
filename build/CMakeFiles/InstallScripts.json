@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/arjungupta/Desktop/Master/Finance/matchcore/build/cmake_install.cmake",
+		"/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/cmake_install.cmake",
+		"/Users/arjungupta/Desktop/Master/Finance/matchcore/build/_deps/catch2-build/cmake_install.cmake",
+		"/Users/arjungupta/Desktop/Master/Finance/matchcore/build/_deps/catch2-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

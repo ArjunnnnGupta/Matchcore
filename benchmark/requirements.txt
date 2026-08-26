@@ -1,0 +1,5 @@
+pandas
+numpy
+pybind11
+matplotlib
+setuptools

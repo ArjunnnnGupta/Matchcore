@@ -1,0 +1,283 @@
+Start testing: Aug 26 19:59 IST
+----------------------------------------------------------
+1/14 Testing: toolchain sanity check
+1/14 Test: toolchain sanity check
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "toolchain sanity check"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"toolchain sanity check" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "toolchain sanity check"
+Randomness seeded to: 3309232177
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"toolchain sanity check" end time: Aug 26 19:59 IST
+"toolchain sanity check" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: empty book reports no best price on either side
+2/14 Test: empty book reports no best price on either side
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "empty book reports no best price on either side"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"empty book reports no best price on either side" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "empty book reports no best price on either side"
+Randomness seeded to: 2875156447
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"empty book reports no best price on either side" end time: Aug 26 19:59 IST
+"empty book reports no best price on either side" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/14 Testing: insert maintains price ordering: best bid is highest, best ask is lowest
+3/14 Test: insert maintains price ordering: best bid is highest, best ask is lowest
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "insert maintains price ordering: best bid is highest\, best ask is lowest"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"insert maintains price ordering: best bid is highest, best ask is lowest" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "insert maintains price ordering: best bid is highest\, best ask is lowest"
+Randomness seeded to: 58338553
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"insert maintains price ordering: best bid is highest, best ask is lowest" end time: Aug 26 19:59 IST
+"insert maintains price ordering: best bid is highest, best ask is lowest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: FIFO within a price level: first order in is first order out
+4/14 Test: FIFO within a price level: first order in is first order out
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "FIFO within a price level: first order in is first order out"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"FIFO within a price level: first order in is first order out" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "FIFO within a price level: first order in is first order out"
+Randomness seeded to: 2959817276
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"FIFO within a price level: first order in is first order out" end time: Aug 26 19:59 IST
+"FIFO within a price level: first order in is first order out" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/14 Testing: cancel removes the correct order and leaves others intact
+5/14 Test: cancel removes the correct order and leaves others intact
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "cancel removes the correct order and leaves others intact"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"cancel removes the correct order and leaves others intact" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "cancel removes the correct order and leaves others intact"
+Randomness seeded to: 2538268282
+===============================================================================
+All tests passed (4 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cancel removes the correct order and leaves others intact" end time: Aug 26 19:59 IST
+"cancel removes the correct order and leaves others intact" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/14 Testing: cancelling the last order at a level removes the level entirely
+6/14 Test: cancelling the last order at a level removes the level entirely
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "cancelling the last order at a level removes the level entirely"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"cancelling the last order at a level removes the level entirely" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "cancelling the last order at a level removes the level entirely"
+Randomness seeded to: 328809425
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cancelling the last order at a level removes the level entirely" end time: Aug 26 19:59 IST
+"cancelling the last order at a level removes the level entirely" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/14 Testing: full fill: matching quantities at a crossing price fully consume both orders
+7/14 Test: full fill: matching quantities at a crossing price fully consume both orders
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "full fill: matching quantities at a crossing price fully consume both orders"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"full fill: matching quantities at a crossing price fully consume both orders" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "full fill: matching quantities at a crossing price fully consume both orders"
+Randomness seeded to: 2153007969
+===============================================================================
+All tests passed (9 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"full fill: matching quantities at a crossing price fully consume both orders" end time: Aug 26 19:59 IST
+"full fill: matching quantities at a crossing price fully consume both orders" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/14 Testing: partial fill: unmatched remainder rests on the book
+8/14 Test: partial fill: unmatched remainder rests on the book
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "partial fill: unmatched remainder rests on the book"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"partial fill: unmatched remainder rests on the book" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "partial fill: unmatched remainder rests on the book"
+Randomness seeded to: 2420588824
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"partial fill: unmatched remainder rests on the book" end time: Aug 26 19:59 IST
+"partial fill: unmatched remainder rests on the book" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/14 Testing: multi-level sweep: aggressive order walks multiple price levels in price order
+9/14 Test: multi-level sweep: aggressive order walks multiple price levels in price order
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "multi-level sweep: aggressive order walks multiple price levels in price order"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"multi-level sweep: aggressive order walks multiple price levels in price order" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "multi-level sweep: aggressive order walks multiple price levels in price order"
+Randomness seeded to: 2422937495
+===============================================================================
+All tests passed (10 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"multi-level sweep: aggressive order walks multiple price levels in price order" end time: Aug 26 19:59 IST
+"multi-level sweep: aggressive order walks multiple price levels in price order" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/14 Testing: IOC: unfilled remainder is cancelled, never rests
+10/14 Test: IOC: unfilled remainder is cancelled, never rests
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "IOC: unfilled remainder is cancelled\, never rests"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"IOC: unfilled remainder is cancelled, never rests" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "IOC: unfilled remainder is cancelled\, never rests"
+Randomness seeded to: 2189789532
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"IOC: unfilled remainder is cancelled, never rests" end time: Aug 26 19:59 IST
+"IOC: unfilled remainder is cancelled, never rests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/14 Testing: market order: sweeps regardless of price and never rests
+11/14 Test: market order: sweeps regardless of price and never rests
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "market order: sweeps regardless of price and never rests"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"market order: sweeps regardless of price and never rests" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "market order: sweeps regardless of price and never rests"
+Randomness seeded to: 70964224
+===============================================================================
+All tests passed (7 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"market order: sweeps regardless of price and never rests" end time: Aug 26 19:59 IST
+"market order: sweeps regardless of price and never rests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/14 Testing: self-cross policy: aggressor is rejected before trading against its own resting order
+12/14 Test: self-cross policy: aggressor is rejected before trading against its own resting order
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "self-cross policy: aggressor is rejected before trading against its own resting order"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"self-cross policy: aggressor is rejected before trading against its own resting order" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "self-cross policy: aggressor is rejected before trading against its own resting order"
+Randomness seeded to: 2942977096
+===============================================================================
+All tests passed (5 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"self-cross policy: aggressor is rejected before trading against its own resting order" end time: Aug 26 19:59 IST
+"self-cross policy: aggressor is rejected before trading against its own resting order" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: self-cross policy: fills against other owners stand before the self-cross is hit
+13/14 Test: self-cross policy: fills against other owners stand before the self-cross is hit
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "self-cross policy: fills against other owners stand before the self-cross is hit"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"self-cross policy: fills against other owners stand before the self-cross is hit" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "self-cross policy: fills against other owners stand before the self-cross is hit"
+Randomness seeded to: 3789026456
+===============================================================================
+All tests passed (7 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"self-cross policy: fills against other owners stand before the self-cross is hit" end time: Aug 26 19:59 IST
+"self-cross policy: fills against other owners stand before the self-cross is hit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/14 Testing: cancel: resting order can be cancelled through the engine
+14/14 Test: cancel: resting order can be cancelled through the engine
+Command: "/Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine/matchcore_tests" "cancel: resting order can be cancelled through the engine"
+Directory: /Users/arjungupta/Desktop/Master/Finance/matchcore/build/engine
+"cancel: resting order can be cancelled through the engine" start time: Aug 26 19:59 IST
+Output:
+----------------------------------------------------------
+Filters: "cancel: resting order can be cancelled through the engine"
+Randomness seeded to: 318089944
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cancel: resting order can be cancelled through the engine" end time: Aug 26 19:59 IST
+"cancel: resting order can be cancelled through the engine" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 26 19:59 IST

@@ -1,0 +1,15 @@
+toolchain sanity check 1 0.00369946
+empty book reports no best price on either side 1 0.00359121
+insert maintains price ordering: best bid is highest, best ask is lowest 1 0.00336242
+FIFO within a price level: first order in is first order out 1 0.00345329
+cancel removes the correct order and leaves others intact 1 0.00336929
+cancelling the last order at a level removes the level entirely 1 0.00351846
+full fill: matching quantities at a crossing price fully consume both orders 1 0.00345758
+partial fill: unmatched remainder rests on the book 1 0.00348317
+multi-level sweep: aggressive order walks multiple price levels in price order 1 0.00348387
+IOC: unfilled remainder is cancelled, never rests 1 0.00337113
+market order: sweeps regardless of price and never rests 1 0.00338312
+self-cross policy: aggressor is rejected before trading against its own resting order 1 0.00342575
+self-cross policy: fills against other owners stand before the self-cross is hit 1 0.00356987
+cancel: resting order can be cancelled through the engine 1 0.00364083
+---
